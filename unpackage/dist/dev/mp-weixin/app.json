@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/circle/index",
+    "pages/my/index",
+    "pages/chat/index",
+    "pages/community/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "聊天",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/circle/index",
+        "text": "圈子",
+        "iconPath": "static/imgs/activity.png",
+        "selectedIconPath": "static/imgs/activity_active.png"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "text": "广场",
+        "iconPath": "static/imgs/square.png",
+        "selectedIconPath": "static/imgs/square_active.png"
+      },
+      {
+        "pagePath": "pages/chat/index",
+        "text": "消息",
+        "iconPath": "static/imgs/chat.png",
+        "selectedIconPath": "static/imgs/chat_active.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/imgs/user.png",
+        "selectedIconPath": "static/imgs/user_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,46 @@
+@import '@/uni.scss';
+.wrapper{
+	padding: 0 0.12rem;
+	
+	.desc-wrap{
+		position: relative;
+		height: 0.48rem;
+		overflow: hidden;
+		.desc-text{
+			@include font(0.14rem,0.16rem);
+		}
+		.viewMore{
+			background: #fff;
+			padding-left: 0.1rem;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			@include font(0.14rem,0.16rem,auto,blue);
+		}
+	}
+}
+.album-wrap{
+	margin-top:0.1rem;
+}
+ ::v-deep{
+	.u-album__row{
+		// @include displayFlex(space-between);
+	}
+	.u-album__row__wrapper{
+		background-color: #eee;
+	}
+ }
+ 
+ .operate-wrap{
+	 @include displayFlex;
+	 position: relative;
+	 // margin-top: 0.1rem;
+	 .operate{
+		 width: 33%;
+		  @include displayFlex;
+		  @include font(0.14rem);
+		  .text{
+			  margin: 0.04rem;
+		  }
+	 }
+ }

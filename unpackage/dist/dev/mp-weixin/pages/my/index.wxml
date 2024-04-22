@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><text class="title">{{a}}</text></view><view><text class="title" bindtap="{{b}}">登录</text><text class="title" bindtap="{{c}}">hahah </text></view></view>
